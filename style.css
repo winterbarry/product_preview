@@ -1,0 +1,53 @@
+body { /* centers container */
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+img {
+    height: 402px;
+    width: 200px;
+}
+
+.information {
+    width: 200px;
+    background: white;
+}
+
+.information * {
+    margin: 15px;
+}
+
+.prices { /* ensures prices start at same line as other elements */
+    margin: 0px;
+}
+
+.price-regular {
+    color: green;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.price-sale {
+    text-decoration: line-through;
+}
+
+.shop-icon {
+    height: 15px;
+    width: 15px;
+}
+
+.add-to-cart { 
+    display: flex;
+    margin: 0px;
+    background-color: green;
+    border-radius: 10px;
+    width: 160px;
+    margin: 15px; /* centers div */
+}
+
+.container { /* aligns div side by side */
+    display: flex;
+}
