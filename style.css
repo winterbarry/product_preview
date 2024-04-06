@@ -48,6 +48,14 @@ img {
     margin: 15px; /* centers div */
 }
 
+.add-to-cart:hover {
+    background-color: darkcyan; 
+}
+
+.add-to-cart:focus {
+    outline: 5px solid black;
+}
+
 .container { /* aligns div side by side */
     display: flex;
 }
