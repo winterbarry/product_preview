@@ -60,8 +60,7 @@ img {
     display: flex;
 }
 
-/* create https and send to iphone next */
-@media (max-width: 720px) {
+@media (max-width: 1080px) {
     .container {
         flex-direction: column;
     }
