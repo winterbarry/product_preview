@@ -53,9 +53,16 @@ img {
 }
 
 .add-to-cart:focus {
-    outline: 5px solid black;
+    outline: 3px solid black;
 }
 
 .container { /* aligns div side by side */
     display: flex;
+}
+
+/* create https and send to iphone next */
+@media (max-width: 720px) {
+    .container {
+        flex-direction: column;
+    }
 }
